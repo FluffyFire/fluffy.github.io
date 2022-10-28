@@ -360,47 +360,6 @@
 			const [hh,mm,ss] = d.split(", ")[1].split(":");
 			document.querySelector("#" + t).innerHTML = pad(hh)+pad(mm)
 		</script>
-		<script>
-			const timeObj = {
-				"time1": {
-				"tz": "Europe/Chisinau",
-				"locale": "ro-MD"
-				},
-				"time2": {
-				"tz": "Europe/London",
-				"locale": "en-GB"
-				},
-				"time3": {
-				"tz": "Europe/Moscow",
-				"locale": "ru-RU"
-				},
-				"time4": {
-				"tz": "Asia/Vladivostok",
-				"locale": "ru-RU"
-				},
-				"time5": {
-				"tz": "Europe/Minsk",
-				"locale": "ru-RU"
-				},
-				"time6": {
-				"tz": "Europe/London",
-				"locale": "en-GB"
-				},
-				"time7": {
-				"tz": "Europe/Saratov",
-				"locale": "ru-RU"
-				}
-			};
 
-			const timeClock = () => {
-				for (t in timeObj) {
-				const tObj = timeObj[t];
-				let d = new Date().toLocaleString(
-				tObj.locale, { "timeZone": tObj.tz })
-				document.querySelector("#" + t).innerHTML = d.split(", ")[1];
-				}
-			};
-			setInterval(timeClock, 500);
-		</script>
 	</body>
 </html>
