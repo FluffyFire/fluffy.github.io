@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta property="og:title" content="Pepega">
+		<meta property="og:site_name" content="Pepega/ Time Zones">
+		<meta property="og:url" content="https://fluffyfire.github.io/pepega/Zone1.html">
+		<meta property="og:description" content="Полезная инфа!">
+		<meta property="og:image" content="">
+
+		<!-- CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+		<link rel="shortcut icon" href="images/RIPPERS-icon.png" type="image/png">
+
+		<link rel="stylesheet" href="style.css">
+		<script src="scripts.js"></script>
+
+		<title>Time Zones</title>
+
+	</head>
+	<body style="background-color: #36393f;">
+
+		<!-- Меню -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" style="margin-left: 1rem;" href="https://discord.gg/kBggsXd6Yk">
+					<img height="35" src="images/RIPPERS.png" alt="Rust Marque Logo">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="home.html">Home</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img height="15" src="https://d2lchq0n03yu65.cloudfront.net/statics/2021-10-13/images/NW-bug.svg"> New World
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="TKLI-New-World-Perk-Resource.html"><i class="bi bi-box-seam"> </i>Perk Resource <i class="bi-chevron-right"></i></a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="TKLI-New-World-Perk-Resource.html">All</a></li>
+										<li><a class="dropdown-item disabled" href="#">Strength</a></li>
+										<li><a class="dropdown-item disabled" href="#">Dexterity</a></li>
+										<li><a class="dropdown-item disabled" href="#">Intelligence</a></li>
+										<li><a class="dropdown-item disabled" href="#">Focus</a></li>
+										<li><a class="dropdown-item disabled" href="#">Constitution</a></li>
+										<li><hr class="dropdown-divider"></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 1</a></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 2</a></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 3</a></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 4</a></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 5</a></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 7</a></li>
+										<li><a class="dropdown-item disabled" href="#">Tir 10</a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" target="_blank" href="https://newworld-map.com/#/"><i class="bi-map"> </i>Map</a></li>
+								<li><a class="dropdown-item" href="New-World-Craft-Calculator.html"><i class="bi-calculator"> </i>Craft Calculator</a></li>
+								<li><a class="dropdown-item" target="_blank" href="https://www.nwfans.ru/skills"><i class="bi-calculator"> </i>Skill Calculator</a></li>
+								<li><a class="dropdown-item" target="_blank" href="https://nwdb.info/server-status"><i class="bi bi-server"> </i>Database</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" target="_blank" href="https://nwdb.info/server-status"><i class="bi bi-server"> </i>Server Status</a></li>
+								<li><a class="dropdown-item" target="_blank" href="https://www.newworld.com/en-us/support/server-status"><i class="bi bi-server"> </i>Server Status</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" target="_blank" href="TKLI-New-World-Download.html"><i class="bi bi-cloud-download-fill"> </i>download</a></li>
+								<li><a class="dropdown-item disabled" href="#">Ещё не придумал</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img height="15" src="https://files.facepunch.com/lewis/1b2911b1/rust-marque.svg" alt="Rust Marque Logo"> RUST
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="RUST.html"><i class="bi bi-server"> </i>RUST</a></li>
+								<li><a class="dropdown-item" href="RUST-Download.html"><i class="bi bi-cloud-download-fill"> </i>download</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" target="_blank" href="https://rustlabs.com/"><i class="bi bi-server"> </i>Database</a></li>
+								<li><a class="dropdown-item" target="_blank" href="http://playrust.io/"><i class="bi bi-map"> </i>Map Search</a></li>
+								<li><a class="dropdown-item" target="_blank" href="https://rustmaps.com/"><i class="bi bi-map"> </i>Map Search</a></li>
+								<li><a class="dropdown-item" target="_blank" href="https://www.battlemetrics.com/servers/rust">Official Servers</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" target="_blank" href="https://forum.alkad.org/forums/#rust.14">RUST Alkad</a></li>
+								<li><a class="dropdown-item" target="_blank" href="https://expshop.alkad.org/launcher/">Alkad Servers</a></li>
+							</ul>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img height="15" src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-buy--reversed.gif"> Minecraft
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="Minecraft-Accounts.html"><i class="bi bi-person-circle"> </i>Accounts</a></li>
+								<li><a class="dropdown-item" href="">Mods <i class="bi-chevron-right"></i></a>
+									<ul class="submenu dropdown-menu">
+										<li><a class="dropdown-item" href="Minecraft-Mods-Thaumcraft.html">Thaumcraft</a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" href="Minecraft-Download.html"><i class="bi bi-cloud-download-fill"> </i>download</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<ul class="navbar-nav mb-2 d-flex">
+						<li class="nav-item">
+							<a class="nav-link" role="button" href="TKLI-Time-Zones.html"><i class="bi bi-clock"></i> Time Zones</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="bd-example text-center">
+			<h1 style="color: #fff;padding-top: 20px;">
+				<i class="bi bi-clock"> </i><b>Time Zones</b>
+			</h1>
+		</div>
+
+		<!-- Хлебные крошки -->
+		<div class="bd-example" style="padding-bottom: 0px; padding-top: 0px;">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="home.html">Home</a></li>
+					<li class="breadcrumb-item active" aria-current="page">TKLI Time Zones</li>
+				</ol>
+			</nav>
+		</div>
+
+		<!-- Часы -->
+		<div class="bd-example row">
+
+			<!-- LION -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #000000; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="width: 90px; padding: 5px; border-radius: 15px;" src="images/username-nagi.png">
+					</div>
+					
+					<div class="row">
+						<h3><b>LION</b></h3>
+						<span class="opacity">Europe/Chisinau</span>
+						<h1 class="display-5"><div id="time1"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody style="text-align: left;">
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><img height="20" src="images/discord.png"></td>
+									<td>LION#2947</td>
+								</tr>
+								<tr>
+									<td><img height="30" src="images/battlenet.png"></td>
+									<td>NAGIBATOR#23765</td>
+								</tr>
+								<tr>
+									<td><a href="https://steamcommunity.com/id/Immortal-Lion-md/" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>1013090797</td>
+								</tr>
+								<tr>
+									<td><a href="https://www.youtube.com/channel/UCYyCvDkix3PmeunlU7excTw" class="card-link"><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href="https://www.youtube.com/channel/UCYyCvDkix3PmeunlU7excTw">NAGI-RUST</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="row" style="padding: 0 20px;">
+						<!-- Weather widget by https://www.meteoservice.ru -->
+						<!-- https://www.meteoservice.ru/informer/create/daily?hash=a39f9585c7bc8554acc04251fd65f148 -->
+						<!-- https://www.meteoservice.ru/informer/created/08a093e5e343a463a5ef4c2a7d54ae78 -->
+						<a id="ms-informer-link-08a093e5e343a463a5ef4c2a7d54ae78" class="ms-informer-link" href="https://www.meteoservice.ru/weather/overview/balti"></a>
+						<script class="ms-informer-script" src="https://www.meteoservice.ru/informer/script/08a093e5e343a463a5ef4c2a7d54ae78"></script>
+						<!-- End -->
+					</div>
+
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse1" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse1">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse1" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>08:30 - 17:30</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>08:30 - 17:30</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>08:30 - 17:30</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>08:30 - 17:30</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>08:30 - 17:30</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>09:30 - 14:30</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- Tabik -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #000000; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="width: 90px; padding: 5px; border-radius: 15px;" src="images/username-tabik.png">
+					</div>
+
+					<div class="row">
+						<h3><b>Tabik</b></h3>
+						<span class="opacity">Europe/London</span>
+						<h1 class="display-5"><div id="time2"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><img height="20" src="images/discord.png"></td>
+									<td>tabik#0504</td>
+								</tr>
+								<tr>
+									<td><img height="30" src="images/battlenet.png"></td>
+									<td>tabik#21722</td>
+								</tr>
+								<tr>
+									<td><a href="https://steamcommunity.com/id/triumph2300" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>---------</td>
+								</tr>
+								<tr>
+									<td><a href=""><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href=""></a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="row" style="padding: 0 20px;">
+						<!-- Weather widget by https://www.meteoservice.ru -->
+						<!-- https://www.meteoservice.ru/informer/create/daily?hash=a39f9585c7bc8554acc04251fd65f148 -->
+						<!-- Weather widget by https://www.meteoservice.ru -->
+						<a id="ms-informer-link-5f3f3aca15b16bc35799eb2f55de29e8" class="ms-informer-link" href="https://www.meteoservice.ru/weather/overview/bedworth"></a>
+						<script class="ms-informer-script" src="https://www.meteoservice.ru/informer/script/5f3f3aca15b16bc35799eb2f55de29e8"></script>
+						<!-- End -->
+					</div>
+
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse2" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse2">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse2" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- FluffyFire -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #000000; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="width: 90px; padding: 5px; border-radius: 15px;" src="images/username-fluffyfire.png">
+					</div>
+
+					<div class="row">
+						<h3><b>FluffyFire</b></h3>
+						<span class="opacity">Europe/Saratov</span>
+						<h1 class="display-5"><div id="time7"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><img height="20" src="images/discord.png"></td>
+									<td>FluffyFire#5170</td>
+								</tr>
+								<tr>
+									<td><img height="30" src="images/battlenet.png"></td>
+									<td>FluffyFire#21264</td>
+								</tr>
+								<tr>
+									<td><a href="https://steamcommunity.com/id/1584753" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>859680852</td>
+								</tr>
+								<tr>
+									<td><a href=""><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href="">---------</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse5" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse5">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse5" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- 3DMax -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #000000; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="width: 90px; padding: 5px; border-radius: 15px;" src="images/username-3dmax.png">
+					</div>
+
+					<div class="row">
+						<h3><b>3DMax</b></h3>
+						<span class="opacity">Asia/Vladivostok</span>
+						<h1 class="display-5"><div id="time4"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><img height="20" src="images/discord.png"></td>
+									<td>3Dmax#9939</td>
+								</tr>
+								<tr>
+									<td><img height="30" src="images/battlenet.png"></td>
+									<td>----#----</td>
+								</tr>
+								<tr>
+									<td><a href="https://steamcommunity.com/profiles/76561198974023592/" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>76561198974023592</td>
+								</tr>
+								<tr>
+									<td><a href=""><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href="">---------</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse5" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse5">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse5" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- Snepsi -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #ec632b; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="padding: 5px; border-radius: 15px;" src="images/username-snepsi.png">
+					</div>
+
+					<div class="row">
+						<h3><b>Snepsi</b></h3>
+						<span class="opacity">Europe/Minsk</span>
+						<h1 class="display-5"><div id="time5"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><img height="20" src="images/discord.png"></td>
+									<td>snepsi#4773</td>
+								</tr>
+								<tr>
+									<td><img height="30" src="images/battlenet.png"></td>
+									<td>----#----</td>
+								</tr>
+								<tr>
+									<td><a href="" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>---------</td>
+								</tr>
+								<tr>
+									<td><a href=""><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href="">---------</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse6" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse6">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse6" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- Cosmossian -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #d24c82; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="padding: 5px; border-radius: 15px;" src="images/username-cossmosian.png">
+					</div>
+
+					<div class="row">
+						<h3><b>Cossmosian</b></h3>
+						<span class="opacity">Europe/Moscow</span>
+						<h1 class="display-5"><div id="time3"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><a href="#" class="card-link"><img height="30" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/v974/J4ZqkHuuR"></a></td>
+									<td>Cosmossian#9413</td>
+								</tr>
+								<tr>
+									<td><a href="#" class="card-link">
+										<svg width="30px" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 580.4"><path d="M473.5 197.6c-75.9-35.1-185.1-57.4-287.8-49.1 5.1-34 17.9-57.7 38.7-62.7 28.7-6.9 60 12 89.8 46.3 19.5 2.5 42.7 7 58.9 10.7C318.7 40.5 245.7-16.8 190.2 4.4 148 20.5 126.4 78.6 129 156.7c-55 11.7-97.9 32.5-125.4 62.4-1.4 1.6-4.5 5.7-3.4 7.6.9 1.5 3.6-.2 4.9-1 31.8-22.3 72.6-34.3 125.7-41.9 7.6 83.3 42.8 189 101.4 273.8-32 12.6-58.9 13.4-73.6-2.2-20.3-21.4-19.6-58-4.8-101-7.6-18.2-15.3-40.5-20.1-56.3-61.6 98.3-74.8 190.2-28.7 227.7 35.1 28.5 96.2 18.2 162.5-23.1 37.6 41.8 77.1 68.5 116.7 77.3 2.1.4 7.2 1.1 8.3-.8.9-1.5-2-3.1-3.3-3.7-35.2-16.4-66-45.7-99.1-87.9 68.4-48.2 142.3-131.6 186.4-224.7 26.9 21.5 41 44.3 34.9 64.9-8.4 28.3-40.4 46-85.1 54.6-12 15.7-27.4 33.5-38.7 45.6 115.8 4 202-30.5 211.4-89.1 7.2-44.6-32.4-92.4-101.3-129.2 17.4-53.5 20.8-101 8.6-139.7-.7-2-2.6-6.8-4.9-6.8-1.7 0-1.7 3.3-1.6 4.7 3.6 38.6-6.3 80-26.3 129.7zM260.2 444.3c-49-78.6-77.2-171.2-77.1-264.8 92.6-3.1 186.9 18.7 267.9 65.7-43.6 81.7-109.6 152.5-190.8 199.1z" fill="#ffffff"></path></svg>
+									</a></td>
+									<td>Cosmossian#2323</td>
+								</tr>
+								<tr>
+									<td><a href="https://steamcommunity.com/profiles/76561198148064394" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>187798666</td>
+								</tr>
+								<tr>
+									<td><a href="https://www.youtube.com/channel/UCtJoycWXYHONPmFzEJcpOPg/featured"><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href="">Cosmossian</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse3" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse3">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse3" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<!-- Gortenzija -->
+			<div class="col-md-3" style="padding: 10px 20px;">
+				<div class="plaski scale3 text-center" style="border-radius: 6px;">
+					<div style="width: 100%; height: 80px; background-color: #a36aa1; border-radius: 6px 6px 0px 0px; margin-bottom: -50px;"></div>
+					<div style="border-radius: 15px; width: 90px; height: 90px; background-color: #212529; margin: auto;">
+						<img style="padding: 5px; border-radius: 15px;" src="images/username-gortenzija.png">
+					</div>
+
+					<div class="row">
+						<h3><b>Gortenzija</b></h3>
+						<span class="opacity">Europe/London</span>
+						<h1 class="display-5"><div id="time6"></div></h1>
+					</div>
+					<div class="row" style="margin: 20px; margin-bottom: 0;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td><a href="#" class="card-link"><img height="30" src="https://thumb.cloud.mail.ru/weblink/thumb/xw1/v974/J4ZqkHuuR"></a></td>
+									<td>gortenzija#0107</td>
+								</tr>
+								<tr>
+									<td><a href="#" class="card-link">
+										<svg width="30px" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 580.4"><path d="M473.5 197.6c-75.9-35.1-185.1-57.4-287.8-49.1 5.1-34 17.9-57.7 38.7-62.7 28.7-6.9 60 12 89.8 46.3 19.5 2.5 42.7 7 58.9 10.7C318.7 40.5 245.7-16.8 190.2 4.4 148 20.5 126.4 78.6 129 156.7c-55 11.7-97.9 32.5-125.4 62.4-1.4 1.6-4.5 5.7-3.4 7.6.9 1.5 3.6-.2 4.9-1 31.8-22.3 72.6-34.3 125.7-41.9 7.6 83.3 42.8 189 101.4 273.8-32 12.6-58.9 13.4-73.6-2.2-20.3-21.4-19.6-58-4.8-101-7.6-18.2-15.3-40.5-20.1-56.3-61.6 98.3-74.8 190.2-28.7 227.7 35.1 28.5 96.2 18.2 162.5-23.1 37.6 41.8 77.1 68.5 116.7 77.3 2.1.4 7.2 1.1 8.3-.8.9-1.5-2-3.1-3.3-3.7-35.2-16.4-66-45.7-99.1-87.9 68.4-48.2 142.3-131.6 186.4-224.7 26.9 21.5 41 44.3 34.9 64.9-8.4 28.3-40.4 46-85.1 54.6-12 15.7-27.4 33.5-38.7 45.6 115.8 4 202-30.5 211.4-89.1 7.2-44.6-32.4-92.4-101.3-129.2 17.4-53.5 20.8-101 8.6-139.7-.7-2-2.6-6.8-4.9-6.8-1.7 0-1.7 3.3-1.6 4.7 3.6 38.6-6.3 80-26.3 129.7zM260.2 444.3c-49-78.6-77.2-171.2-77.1-264.8 92.6-3.1 186.9 18.7 267.9 65.7-43.6 81.7-109.6 152.5-190.8 199.1z" fill="#ffffff"></path></svg>
+									</a></td>
+									<td>----#----</td>
+								</tr>
+								<tr>
+									<td><a href="https://steamcommunity.com/profiles/76561198135633156" class="card-link"><img height="30" src="images/steam.png"></a></td>
+									<td>---------</td>
+								</tr>
+								<tr>
+									<td><a href=""><img height="30" src="images/youtube.png"></a></td>
+									<td><a style="text-decoration: none;" href=""></a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="row text-center">
+						<a class="nav-link dropdown-toggle text-muted" data-bs-toggle="collapse" href="#collapse4" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="collapse4">график работы</a>
+					</div>
+					<div class="row opacity collapse" id="collapse4" style="margin: 20px;">
+						<table class="table table-dark">
+							<tbody>
+								<!-- <p class="opacity" style="padding-top: 10px; padding-bottom: 0px;">график работы</p> -->
+								<tr>
+									<td>Пн</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Ср</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Чт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Пт</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Сб</td>
+									<td>00:00 - 00:00</td>
+								</tr>
+								<tr>
+									<td>Вс</td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+        <div class="bd-example" style="padding: 45px;">
+        	<iframe src="https://discord.com/widget?id=933744597123862528&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </div> 
+
+		<script>
+			const pad = (num) => ("0" + num).slice(-2);
+			....
+			const [hh,mm,ss] = d.split(", ")[1].split(":");
+			document.querySelector("#" + t).innerHTML = pad(hh)+pad(mm)
+		</script>
+		<script>
+			const timeObj = {
+				"time1": {
+				"tz": "Europe/Chisinau",
+				"locale": "ro-MD"
+				},
+				"time2": {
+				"tz": "Europe/London",
+				"locale": "en-GB"
+				},
+				"time3": {
+				"tz": "Europe/Moscow",
+				"locale": "ru-RU"
+				},
+				"time4": {
+				"tz": "Asia/Vladivostok",
+				"locale": "ru-RU"
+				},
+				"time5": {
+				"tz": "Europe/Minsk",
+				"locale": "ru-RU"
+				},
+				"time6": {
+				"tz": "Europe/London",
+				"locale": "en-GB"
+				},
+				"time7": {
+				"tz": "Europe/Saratov",
+				"locale": "ru-RU"
+				}
+			};
+
+			const timeClock = () => {
+				for (t in timeObj) {
+				const tObj = timeObj[t];
+				let d = new Date().toLocaleString(
+				tObj.locale, { "timeZone": tObj.tz })
+				document.querySelector("#" + t).innerHTML = d.split(", ")[1];
+				}
+			};
+			setInterval(timeClock, 500);
+		</script>
+	</body>
+</html>
